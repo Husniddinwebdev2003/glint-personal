@@ -2069,6 +2069,12 @@ footer {
 }
 
 @media only screen and (max-width: 48em) {
+    .container {
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+    }
     .xs-fade {
         display: none;
     }
@@ -2349,11 +2355,19 @@ footer {
     #about {
         height: 900px;
         padding-top: 0;
-
+    
         .sc-video-box {
             background-size: cover;
+    
+            &>.sc-video-img {
+                width: 100%;
+    
+                &>.sc-video-control {
+                    width: 100%;
+                }
+            }
         }
-
+    
         .sc-description {
 
             &>h2 {
@@ -2468,7 +2482,7 @@ footer {
         }
 
         .services-card {
-            width: 450px;
+            width: 100%;
             margin-top: 40px;
         }
     }
@@ -2509,7 +2523,7 @@ footer {
         .clients-title {
 
             &>strong {
-                font-size: 70px;
+                font-size: 40px;
             }
 
             &>h3 {
@@ -3043,11 +3057,19 @@ footer {
     #about {
         height: 900px;
         padding-top: 0;
-
+    
         .sc-video-box {
             background-size: cover;
+    
+            &>.sc-video-img {
+                width: 100%;
+    
+                &>.sc-video-control {
+                    width: 100%;
+                }
+            }
         }
-
+    
         .sc-description {
 
             &>h2 {
@@ -3162,7 +3184,7 @@ footer {
         }
 
         .services-card {
-            width: 450px;
+            width: 100%;
             margin-top: 40px;
             margin-left: auto;
             margin-right: auto;
@@ -3205,7 +3227,7 @@ footer {
         .clients-title {
 
             &>strong {
-                font-size: 70px;
+                font-size: 50px;
             }
 
             &>h3 {
@@ -3357,7 +3379,7 @@ footer {
         }
 
         .payment-card {
-            width: 450px;
+            width: 100%;
             margin-top: 30px;
             margin-left: auto;
             margin-right: auto;
