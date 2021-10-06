@@ -186,14 +186,6 @@ window.addEventListener("scroll", scrollActive);
 // active link finished
 
 
-// mobile address bar hide started
-window.addEventListener("load", () => {
-    setTimeout(() => {
-        window.scrollTo(0,1);
-    }, 0);
-});
-// mobile address bar hide finished
-
 // owl carusel controller add id strated
 let a = document.querySelector('.owl-nav');
 let blogCoruselControl = document.querySelector('#blog .owl-nav');
