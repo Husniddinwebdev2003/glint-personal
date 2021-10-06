@@ -2332,6 +2332,12 @@ footer .copyright > p > span {
 }
 
 @media only screen and (max-width: 48em) {
+  .container {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
   .xs-fade {
     display: none;
   }
@@ -2581,6 +2587,12 @@ footer .copyright > p > span {
   #about .sc-video-box {
     background-size: cover;
   }
+  #about .sc-video-box > .sc-video-img {
+    width: 100%;
+  }
+  #about .sc-video-box > .sc-video-img > .sc-video-control {
+    width: 100%;
+  }
   #about .sc-description > h2 {
     font-size: 32px;
     line-height: 45px;
@@ -2669,7 +2681,7 @@ footer .copyright > p > span {
     font-weight: 400;
   }
   #services .services-card {
-    width: 450px;
+    width: 100%;
     margin-top: 40px;
   }
   #project {
@@ -2696,7 +2708,7 @@ footer .copyright > p > span {
     padding: 100px 0 50px 0;
   }
   .clients .clients-title > strong {
-    font-size: 70px;
+    font-size: 40px;
   }
   .clients .clients-title > h3 {
     font-size: 32px;
@@ -3158,6 +3170,12 @@ footer .copyright > p > span {
   #about .sc-video-box {
     background-size: cover;
   }
+  #about .sc-video-box > .sc-video-img {
+    width: 100%;
+  }
+  #about .sc-video-box > .sc-video-img > .sc-video-control {
+    width: 100%;
+  }
   #about .sc-description > h2 {
     font-size: 32px;
     line-height: 45px;
@@ -3246,7 +3264,7 @@ footer .copyright > p > span {
     font-weight: 400;
   }
   #services .services-card {
-    width: 450px;
+    width: 100%;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -3275,7 +3293,7 @@ footer .copyright > p > span {
     padding: 100px 0 50px 0;
   }
   .clients .clients-title > strong {
-    font-size: 70px;
+    font-size: 50px;
   }
   .clients .clients-title > h3 {
     font-size: 32px;
@@ -3407,7 +3425,7 @@ footer .copyright > p > span {
     font-weight: 400;
   }
   .payment .payment-card {
-    width: 450px;
+    width: 100%;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
