@@ -2069,9 +2069,6 @@ footer {
 }
 
 @media only screen and (max-width: 48em) {
-    .container {
-        overflow-x: hidden;
-    }
     body {
         overflow-x: hidden;
     }
@@ -2616,7 +2613,7 @@ footer {
 
                         .clients-slider-description {
                             padding: 0 0 0 0;
-                            width: 450px;
+                            width: 100%;
                             margin-top: 250px;
                             text-align: center;
 
@@ -2723,11 +2720,12 @@ footer {
 
             &>.blog-corusel__img {
                 width: 100%;
-                height: 250px;
+                flex-basis: 50%;
             }
 
             &>.blog-corusel__description {
                 width: 100%;
+                flex-basis: 50%;
             }
         }
     }
@@ -2752,7 +2750,7 @@ footer {
                 }
 
                 &>button {
-                    padding: 15px 140px 15px 30px;
+                    padding: 15px 80px 15px 30px;
                     margin-top: 20px;
                 }
             }
@@ -3219,6 +3217,16 @@ footer {
             }
         }
 
+        #on-item-project {
+            height: 420px;
+            width: 320px;
+
+            & > img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
     }
 
     .clients {
@@ -3320,7 +3328,7 @@ footer {
 
                         .clients-slider-description {
                             padding: 0 0 0 0;
-                            width: 450px;
+                            width: 100%;
                             margin-top: 250px;
                             text-align: center;
 
@@ -3429,11 +3437,12 @@ footer {
 
             &>.blog-corusel__img {
                 width: 100%;
-                height: 250px;
+                flex-basis: 50%;
             }
 
             &>.blog-corusel__description {
                 width: 100%;
+                flex-basis: 50%;
             }
         }
     }
@@ -3458,7 +3467,7 @@ footer {
                 }
 
                 &>button {
-                    padding: 15px 140px 15px 30px;
+                    padding: 15px 80px 15px 30px;
                     margin-top: 20px;
                 }
             }
