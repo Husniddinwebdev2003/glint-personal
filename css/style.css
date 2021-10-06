@@ -2228,6 +2228,8 @@ footer {
 
 footer .footer-corusel-content {
   padding: 0 100px 0 120px;
+  width: 100%;
+  text-align: center;
 }
 
 footer .footer-corusel-content .footer-corusel-item {
@@ -2912,9 +2914,6 @@ footer .copyright > p > span {
     background-position: center;
     padding: 120px 0;
   }
-  footer .footer-corusel-content {
-    padding: 0 120px 0 160px;
-  }
   footer .footer-menu {
     padding: 120px 0 20px 0;
   }
@@ -3511,7 +3510,10 @@ footer .copyright > p > span {
     padding: 120px 0;
   }
   footer .footer-corusel-content {
-    padding: 0 120px 0 160px;
+    width: 110px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0;
   }
   footer .footer-menu {
     padding: 120px 0 20px 0;
