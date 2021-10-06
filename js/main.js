@@ -65,21 +65,6 @@ addClassfunc2("#second", "two", "banner-item", "#one", "#first", "#second");
 // banner slider finished
 
 
-
-// owl carusel controller add id strated
-let a = document.querySelector('.owl-nav');
-let blogCoruselControl = document.querySelector('#blog .owl-nav');
-a.id = "nav-corusel";
-blogCoruselControl.classList = "owl-nav nav-corusel";
-
-let apend = document.getElementById("owl-corusel-controller");
-apend.appendChild(a);
-
-let blogControllerContent = document.querySelector('.blogCoruselControlContent');
-blogControllerContent.appendChild(blogCoruselControl);
-// owl carusel controller add id finished
-
-
 // slider clients started
 let sliderItem = document.querySelectorAll(".clients-slider-controller > button");
 let sliderContent = document.querySelectorAll(".clients-slider-item");
@@ -199,3 +184,18 @@ function scrollActive() {
 
 window.addEventListener("scroll", scrollActive);
 // active link finished
+
+
+// owl carusel controller add id strated
+let a = document.querySelector('.owl-nav');
+let blogCoruselControl = document.querySelector('#blog .owl-nav');
+
+    a.id = "nav-corusel";
+    let apend = document.getElementById("owl-corusel-controller");
+    apend.appendChild(a);
+
+    blogCoruselControl.classList = "owl-nav nav-corusel";
+    let blogControllerContent = document.querySelector('.blogCoruselControlContent');
+    blogControllerContent.appendChild(blogCoruselControl);
+
+// owl carusel controller add id finished
